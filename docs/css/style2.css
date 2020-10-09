@@ -1,0 +1,59 @@
+/*--Navbar--*/
+.nav-item{
+    font-size: 30px
+}
+
+/*--Body--*/
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*--Jumbotron--*/
+
+.jumbotron {
+    background: none;
+}
+
+.jumbotron-heading {
+    font-size: 4rem;
+}
+
+/*--About Image--*/
+
+.bg-image2 {
+    background-image: url(../imgs/background1.jpg);
+    height: 130%;
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*--Card--*/
+.card {
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+}
+
+.col-md-12 {
+    padding-top: 50px;
+}
+/*--Footer--*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-right: 5%;
+    background: none;
+    color: black;
+    text-align: right;
+}
