@@ -58,3 +58,11 @@ body, html {
     padding: 20px;
     text-align: center;
 }
+
+.bottom-right{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
