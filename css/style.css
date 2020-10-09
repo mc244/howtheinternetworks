@@ -1,0 +1,27 @@
+/*-- Slider --*/
+
+.carousel-item{
+    height: 100vh
+}
+
+.carousel-caption{
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    text-transform: uppercase;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+}
+
+.btn-lg{
+    border-width: medium;
+    font-size: 1.2rem;
+    text-align: center;
+}
