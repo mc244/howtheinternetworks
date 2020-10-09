@@ -1,52 +1,30 @@
-/*-- Slider --*/
-
 .nav-item{
-    font-size: 24px
-}
-.outlined {
-    color: white;
-    text-shadow:
-            -1px -1px 0 #000,
-            0   -1px 0 #000,
-            1px -1px 0 #000,
-            1px  0   0 #000,
-            1px  1px 0 #000,
-            0    1px 0 #000,
-            -1px  1px 0 #000,
-            -1px  0   0 #000;
-}
-.carousel-item{
-    height: 100vh
+    font-size: 30px
 }
 
-.carousel-caption{
-    position: relative;
-    top: 50%;
-    bottom: 50%;
-    text-transform: uppercase;
-    width: 100%;
-    right: 0;
-    left: 0;
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.carousel-caption h1 {
+* {
+    box-sizing: border-box;
+
+}
+.bg-image {
+    background-image: url(../imgs/index.jpg);
+    height: 130%;
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: none;
+}
+
+.jumbotron-heading {
     font-size: 4rem;
-    font-weight: 700;
-    letter-spacing: .2rem;
-}
-
-.btn-lg{
-    border-width: thick;
-    font-size: 1rem;
-    text-align: center;
-    font-weight: 400;
-    text-shadow:
-            -1px -1px 0 #000,
-            0   -1px 0 #000,
-            1px -1px 0 #000,
-            1px  0   0 #000,
-            1px  1px 0 #000,
-            0    1px 0 #000,
-            -1px  1px 0 #000,
-            -1px  0   0 #000;
 }
