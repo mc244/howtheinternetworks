@@ -1,13 +1,20 @@
-.nav-item {
+/*--Navbar--*/
+.nav-item{
     font-size: 30px
 }
+
+/*--Body--*/
 body, html {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 * {
     box-sizing: border-box;
 }
+
+/*--Jumbotron--*/
 
 .jumbotron {
     background: none;
@@ -16,14 +23,19 @@ body, html {
 .jumbotron-heading {
     font-size: 4rem;
 }
-.bg-image {
+
+/*--About Image--*/
+
+.bg-image2 {
     background-image: url(../imgs/background1.jpg);
-    height: 120%;
+    height: 130%;
+    opacity: 0.9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/*--Card--*/
 .card {
     background-color: rgba(0,0,0, 0.4);
     color: white;
@@ -33,4 +45,15 @@ body, html {
 
 .col-md-12 {
     padding-top: 50px;
+}
+/*--Footer--*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-right: 5%;
+    background: none;
+    color: black;
+    text-align: right;
 }
