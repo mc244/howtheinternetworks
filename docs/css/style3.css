@@ -24,6 +24,15 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*--DNS Image--*/
+.bg-image4 {
+    background-image: url(../imgs/DNS.jpg);
+    height: 120%;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*--Card--*/
 .card {
