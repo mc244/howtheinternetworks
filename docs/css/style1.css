@@ -1,7 +1,9 @@
+/*--Navbar--*/
 .nav-item{
     font-size: 30px
 }
 
+/*--Body--*/
 body, html {
     height: 100%;
     margin: 0;
@@ -10,9 +12,20 @@ body, html {
 
 * {
     box-sizing: border-box;
-
 }
+
+/*--Jumbotron--*/
+
+.jumbotron {
+    background: none;
+}
+
+.jumbotron-heading {
+    font-size: 4rem;
+}
+
 /*--Index Image--*/
+
 .bg-image1 {
     background-image: url(../imgs/index.jpg);
     height: 130%;
@@ -22,10 +35,14 @@ body, html {
     background-size: cover;
 }
 
-.jumbotron {
+/*--Footer--*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-right: 5%;
     background: none;
-}
-
-.jumbotron-heading {
-    font-size: 4rem;
+    color: black;
+    text-align: right;
 }
