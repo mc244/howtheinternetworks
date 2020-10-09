@@ -12,7 +12,8 @@ body, html {
     box-sizing: border-box;
 
 }
-.bg-image {
+/*--Index Image--*/
+.bg-image1 {
     background-image: url(../imgs/index.jpg);
     height: 130%;
     opacity: 0.9;
