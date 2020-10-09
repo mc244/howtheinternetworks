@@ -7,9 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style_2.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fixed.css">
-    <title>Home</title>
+    <title>Domain Names and ICANN</title>
 </head>
 <body>
 <header class="bg-light">
@@ -21,18 +21,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link mx-4" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-4" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link mx-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Links
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="domainICANN.html">Domain Names and ICANN</a>
+                            <a class="dropdown-item active" href="domainICANN.html">Domain Names and ICANN</a>
                             <a class="dropdown-item" href="DNS.html">DNS</a>
                             <a class="dropdown-item" href="IPaddress.html">IP Addresses, Packets, and Routing</a>
                             <a class="dropdown-item" href="HTTP_protocol.html">HTTP and HTTPS Protocols</a>
@@ -44,8 +44,30 @@
         </nav>
     </div>
 </header>
+
+<div class="bg-image">
+    <div class="container">
+        <div class="bottom-right">&#169;Photo taken by Mathyas Kurmann</div>
+    </div>
+</div>
+<div class="bg-text">
+    <h1 class="ml-3">Domain Names and ICANN</h1>
+    <br>
+    <br>
+    <p>A domain name is the address at which Internet users can access your website. An analogy that might be easier to understand is if your website is a house, then the domain name is the address, which is just like how you send letters to a mailbox as depicted. The Internet is a giant network of computers connected to each other, and our computers are all assigned an IP address, which is an accumulation of several numbers that are unique to each computer. If we had to figure out the IP address to visit a website every time, it would be very difficult to remember. That is why domain names were invented.
+        So how does a domain name work? When the domain name is entered into the web browser, it will send a request to a global network of servers that form the domain name system (DNS). It will keep sending it to different servers until the domain name is recognized as a part of the server database or cache. The server will fetch the webpage and send the data back to the browser.
+        <br>
+        <br>
+        A domain name generally consists of two parts. One is called the top-level domain or TLD. These are the most generic domain extensions such as .com, .org, and .net. The other part is called the subdomain, which is the address before the top-level domain. For example, in google.com, the subdomain is google, while the top-level domain is .com.
+        <br>
+        <br>
+        The Internet Corporation for Assigned Names and Numbers (ICANN) is the organization responsible for managing the domain names system. It is a non-profit organization that creates and implements the policies for domain names. ICANN is also responsible for coordinating the management of the technical elements of the DNS to ensure that all Internet users can find valid addresses. While the organization is responsible for the domain name itself, is not responsible for any activities such as financial transactions or content control performed in the domain itself.
+    </p>
+</div>
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
