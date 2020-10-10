@@ -7,9 +7,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fixed.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <title>HTTP and HTTPS Protocols </title>
+    <style>
+        img {
+            -webkit-filter: blur(4px);
+            filter: blur(4px);
+        }
+    </style>
 </head>
 <body>
 <header class="bg-light">
@@ -21,21 +26,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link mx-4" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-4" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link mx-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Links
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="domainICANN.html">Domain Names and ICANN</a>
                             <a class="dropdown-item" href="DNS.html">DNS</a>
                             <a class="dropdown-item" href="IPaddress.html">IP Addresses, Packets, and Routing</a>
-                            <a class="dropdown-item" href="HTTP_protocol.html">HTTP and HTTPS Protocols</a>
+                            <a class="dropdown-item active" href="HTTP_protocol.html">HTTP and HTTPS Protocols</a>
                             <a class="dropdown-item" href="W3C_HTML_CSS.html">W3C, HTML, and CSS</a>
                         </div>
                     </li>
@@ -44,8 +49,33 @@
         </nav>
     </div>
 </header>
+
+<div class="bg-image6">
+    <div class="container">
+        <div class="col-md-12 bg-none">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body text-left">
+                    <h1 class="ml-3">HTTP and HTTPS Protocols</h1>
+                    <br>
+                    <br>
+                    <p>The Internet uses a language called HTTP or Hyper Text Transfer Protocol in order to communicate between web browsers and servers. It’s almost like a manual that tells the computer what information you are looking for and how you want to receive that information. As the user, when we type in the URL or Uniform Resource Locator, it causes the computer to make GET requests. In other words, a request to retrieve data from that website. Once the website’s IP address has received the request, it will send a response back with the proper HTML or Hyper Text Markup Language to display the information that is what requested.</p>
+                    <br>
+                    <br>
+                    <p>Sometimes, as users we can also send out data in the form of POST requests. Data is sent as plain text over the internet, which makes it vulnerable to hackers. Since the Internet is open and public to everyone, it is imperative that we are able to be ensured that we can make secure connections from computer to computer so that our personal information isn't stolen. Safe websites prevent snooping and tampering by communicating through a secure channel using two layers called Secure Sockets Layer (SSL) and Transport Layer Security (TLS). These layers help the language known as HTTPS or Hyper Text Transfer Protocol Secure. By using HTTPS, it ensures your HTTP request are secure and protected. When a website asks your browser to communicate with its server, a safe website will provide a digital certificate that has been verified by authorities. This is also indicated by a small lock sign next to the https in the browser bar. Without a legitimate digital certificate, your computer will notify you that the website you are trying to access is not secure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <p>&#169;Photo taken by Russ Ward</p>
+</div>
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
