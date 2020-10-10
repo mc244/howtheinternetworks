@@ -44,6 +44,16 @@ body, html {
     background-size: cover;
 }
 
+/*--HTTP Protocol Image--*/
+.bg-image6 {
+    background-image: url(../imgs/protocol.jpg);
+    height: 110%;
+    opacity: 0.8;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*--Card--*/
 .card {
     background-color: rgba(0,0,0, 0.8);
