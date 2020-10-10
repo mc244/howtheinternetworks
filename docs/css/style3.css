@@ -54,6 +54,15 @@ body, html {
     background-size: cover;
 }
 
+/*--W3C Image--*/
+.bg-image7 {
+    background-image: url(../imgs/w3c.jpg);
+    height: 110%;
+    opacity: 0.8;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*--Card--*/
 .card {
     background-color: rgba(0,0,0, 0.8);
